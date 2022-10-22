@@ -32,6 +32,7 @@ header {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     padding: 1em;
+    display: flex;
 }
 
 .barra-pesquisa input {
@@ -49,12 +50,16 @@ header {
     font-size: 18px;
 }
 
+#filtro-like {
+    width: 23.44px;
+    height: 23.44px;
+}
+
 .icone-pesquisa {
     border:none;
     background-color: transparent;
     width: 23.44px;
     height: 23.44px;
-    vertical-align: middle;
 }
 
 .icone-pesquisa::before {
@@ -108,4 +113,8 @@ header {
 .descricao-postagem {
     color: #717171;
     font-size: 18px;
+}
+
+.hide {
+    display: none;
 }
